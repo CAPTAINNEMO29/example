@@ -15,7 +15,8 @@ export default {
 
 <style scoped>
 .bottom-container {
-  background-color: #f6e79c;
+  /*background-color: #f6e79c;*/
+  background-color: #c2bece;
   width: 80%;
   height: 40%;
   display: inline-block;
