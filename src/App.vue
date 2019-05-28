@@ -1,85 +1,54 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-    <TopContainer />
-    <MiddleContainer />
-    <BottomContainer />
+    <router-view />
   </div>
 </template>
 
-<script>
-//import HelloWorld from "./components/HelloWorld.vue";
-import TopContainer from "./components/TopContainer.vue";
-import MiddleContainer from "./components/MiddleContainer.vue";
-import BottomContainer from "./components/BottomContainer.vue";
-
-export default {
-  name: "app",
-  components: {
-    //HelloWorld
-    TopContainer,
-    MiddleContainer,
-    BottomContainer
-  },
-  data: () => ({
-    showCongrats: false
-  }),
-  methods: {
-    example() {
-      this.showCongrats = !this.showCongrats;
-    }
-  }
-};
-</script>
-
 <style>
 body {
+  color: #40514e;
   margin: auto;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  margin: 0 auto;
+  font-size: 1.625rem;
+  margin: 30px auto;
   padding-top: 25px;
+  color: #7572f4;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
 }
 
 h2 {
-  margin: 0 auto;
+  margin: 25px auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1, 3rem;
+  color: #c46812;
+  font-weight: normal;
 }
 
-.blockchain {
-  position: relative;
-  margin: auto;
-  width: 70%;
-  height: 45%;
+p {
+  margin: 0;
+  padding-bottom: 3%;
 }
 
-.pro {
-  text-decoration: underline;
+hr {
+  border: dotted rgb(11, 146, 146) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 25px auto;
 }
 
-/*.left-chain{
-  position: absolute;
-  right: 70%;
-  top: 30%;
+a {
+  color: #3cb0fd;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px 20px;
+  text-decoration: none;
 }
 
-/*.right-chain{
-  position: absolute;
-  top: 30%;
-  left: 70%;
-}
-
-*/
-
-.skills {
-}
-
-.picture-profile {
-  width: 30%;
-  height: 20%;
+a:hover {
+  color: #e95b19;
 }
 </style>

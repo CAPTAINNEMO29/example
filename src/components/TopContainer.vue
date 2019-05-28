@@ -31,4 +31,11 @@ export default {
 p {
   margin: 0;
 }
+
+.blockchain {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  height: 45%;
+}
 </style>

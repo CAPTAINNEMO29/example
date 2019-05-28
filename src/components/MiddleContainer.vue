@@ -27,9 +27,11 @@
     </div>
     <hr />
     <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3></h3>
-      <p></p>
+      <h2>First Articles.</h2>
+      <router-link to="/ethereum">ethereum</router-link>
+      <router-link to="/blockchain">blockchain</router-link>
+      <h3>Get in Touch</h3>
+      <p>Let's learn together.</p>
       <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
       <hr />
     </div>
@@ -62,5 +64,46 @@ export default {
 
 .profile__info {
   flex: 1;
+}
+
+.skills {
+  display: flex;
+  padding: 15px 15px;
+}
+
+.skill-row {
+  flex: 1;
+}
+
+.btn {
+  background: #1090e6;
+  background-image: -webkit-linear-gradient(top, #1090e6, #0d6da8);
+  background-image: -moz-linear-gradient(top, #1090e6, #0d6da8);
+  background-image: -ms-linear-gradient(top, #1090e6, #0d6da8);
+  background-image: -o-linear-gradient(top, #1090e6, #0d6da8);
+  background-image: linear-gradient(to bottom, #1090e6, #0d6da8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.picture-profile {
+  width: 30%;
+  height: 20%;
 }
 </style>
