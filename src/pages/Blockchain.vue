@@ -1,8 +1,8 @@
 <template>
-  <section>
+  <section class="Bitcoin">
     Blockchain
 
-    <img class="Bitcoin" src="" alt="Bitcoin" />
+    <img class="" src="" alt="Bitcoin" />
 
     <h1>Bitcoin</h1>
     <p>
@@ -60,30 +60,6 @@ export default {
 <style>
 .Bitcoin {
   background-color: azure;
-  width: 80%;
-  height: 40%;
-}
-
-.BFT {
-  background-color: cornflowerblue;
-  width: 80%;
-  height: 40%;
-}
-
-.B-money {
-  background-color: lightskyblue;
-  width: 80%;
-  height: 40%;
-}
-
-.Merkle {
-  background-color: darkcyan;
-  width: 80%;
-  height: 40%;
-}
-
-.White-papper {
-  background-color: mediumturquoise;
   width: 80%;
   height: 40%;
 }

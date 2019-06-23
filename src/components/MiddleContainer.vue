@@ -13,7 +13,7 @@
     </div>
     <hr />
     <div class="skills">
-      <h2>My Skills.</h2>
+      <h2>What we learn.</h2>
       <div class="skill-row">
         <img class="" src="" alt="" />
         <h3>Web Design</h3>
