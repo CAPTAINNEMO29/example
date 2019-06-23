@@ -59,8 +59,6 @@ export default {
 
 <style>
 .Bitcoin {
-  background-color: azure;
-  width: 80%;
-  height: 40%;
+  background-color: #28c3d4;
 }
 </style>
