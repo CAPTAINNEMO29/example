@@ -7,8 +7,8 @@
       alt="Blockchain"
     />
     <h1 v-if="showCongrats">gracias por clickar</h1>
-    <h1>I'm Antonio.</h1>
-    <p>a <span class="pro">pro</span>grammer.</p>
+    <h1>To Build for Liberty.</h1>
+    <p></p>
     <!--<img class="left-chain" src="file:///C:/Users/Pc/Desktop/web%20development/WEB%20Design/images/blockchain-3750157_640%20(1).jpg" alt="cadena">
         <img class="right-chain" src="file:///C:/Users/Pc/Desktop/web%20development/WEB%20Design/images/blockchain-3750157_640%20(1).jpg" alt="cadena">-->
   </section>

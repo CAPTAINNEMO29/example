@@ -1,14 +1,10 @@
 <template>
   <section class="middle-container">
     <div class="profile">
-      <img
-        class="picture-profile"
-        src="images/_MG_5604.JPG"
-        alt="personal picture"
-      />
+      <img class="picture-profile" src="" alt="personal picture" />
       <div class="profile__info">
-        <h2>Hello.</h2>
-        <p>This is my first web page.</p>
+        <h2></h2>
+        <p></p>
       </div>
     </div>
     <hr />
@@ -17,12 +13,12 @@
       <div class="skill-row">
         <img class="" src="" alt="" />
         <h3>Web Design</h3>
-        <p>my main objective now is web development</p>
+        <p>We will learn about web design.</p>
       </div>
       <div class="skill-row">
         <img class="" src="" alt="" />
         <h3>Blockchain Development</h3>
-        <p>my second skill is the development of blockchain</p>
+        <p>Principals knowledges and news.</p>
       </div>
     </div>
     <hr />
