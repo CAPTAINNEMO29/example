@@ -15,7 +15,31 @@
     <div class="BFT">
       <img class="" src="" alt="" />
       <h2>The bizantine General's Problem.</h2>
-      <p></p>
+      <p>
+        The Byzantine Generals Problem gets its name from a 1982 paper in which
+        Leslie Lamport and two co-authors described an allegory for the problems
+        of decentralized decision-making.
+      </p>
+      <br />
+      <p>
+        The allegory comes like this, the night before the atack, the comander
+        send message to theri Generals but inside his own men they are traitors,
+        so if the traitors read the operation the attack will fall.
+      </p>
+      <br />
+      <p>
+        What is the similitude with Bitcoin?, well it is that if a transaction
+        betwen two person are non trusted, their funds can be stolen.
+      </p>
+      <br />
+      <p>
+        One of the first methods suggested to deal with this issue came about in
+        1999 in a paper written by Miguel Castro and Barbara Liskov. They
+        proposed the Practical Byzantine Fault Tolerance protocol. this idea it
+        was a client will sent a message to a one primary node that later will
+        sent this message to the another nodes, in this idea the majority part
+        of the nodes are supouse to be honest for not be in danger.
+      </p>
     </div>
     <hr />
 
@@ -59,6 +83,6 @@ export default {
 
 <style>
 .Bitcoin {
-  background-color: #28c3d4;
+  background-color: #b7fbff;
 }
 </style>
