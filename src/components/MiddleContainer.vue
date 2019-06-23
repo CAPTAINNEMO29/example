@@ -32,7 +32,7 @@
       <router-link to="/blockchain">blockchain</router-link>
       <h3>Get in Touch</h3>
       <p>Let's learn together.</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      <a class="btn" href="neofrom29@gmail.com">CONTACT ME</a>
       <hr />
     </div>
   </section>
