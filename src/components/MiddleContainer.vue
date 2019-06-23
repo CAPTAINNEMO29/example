@@ -1,7 +1,11 @@
 <template>
   <section class="middle-container">
     <div class="profile">
-      <img class="picture-profile" src="" alt="personal picture" />
+      <img
+        class="picture-profile"
+        src="images/matrix-3109378_640.jpg"
+        alt="personal picture"
+      />
       <div class="profile__info">
         <h2></h2>
         <p></p>
@@ -52,9 +56,7 @@ export default {
   background-color: aqua;
   font-family: "Times New Roman", Times, serif;
   display: flex;
-
   padding: 50px 20px;
-
   align-items: center;
 }
 

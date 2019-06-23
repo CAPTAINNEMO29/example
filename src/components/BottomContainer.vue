@@ -1,9 +1,11 @@
 <template>
   <section class="bottom-container">
-    <a class="footer-link" href="">LinkedIn</a>
-    <a class="footer-link" href="">Twitter</a>
-    <a class="footer-link" href="">Website</a>
-    <p>© 2019 Grwoth Togheter</p>
+    <a class="footer-link" href="https://nakamotoinstitute.org/"
+      >Satoshi Nakamoto Institute</a
+    >
+    <a class="footer-link" href="https://bitcointalk.org/">Bitcointalk</a>
+    <a class="footer-link" href="https://www.reddit.com/r/Bitcoin/">Reddit</a>
+    <p>© 2019 Growth Togheter</p>
   </section>
 </template>
 
