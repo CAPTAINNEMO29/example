@@ -40,6 +40,11 @@
         sent this message to the another nodes, in this idea the majority part
         of the nodes are supouse to be honest for not be in danger.
       </p>
+      <a
+        class=""
+        href="https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf"
+        >Bizantine Generals Problem</a
+      >
     </div>
     <hr />
 
@@ -100,7 +105,7 @@ export default {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   padding: 10px 10px;
 }
 </style>
