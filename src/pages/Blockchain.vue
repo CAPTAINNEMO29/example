@@ -85,4 +85,9 @@ export default {
 .Bitcoin {
   background-color: #b7fbff;
 }
+
+p {
+  text-align: justify;
+  padding: 10px 10px;
+}
 </style>
