@@ -7,7 +7,7 @@
         alt="personal picture"
       />
       <div class="profile__info">
-        <h2></h2>
+        <h2>This tecnology was made for rule your own independency.</h2>
         <p></p>
       </div>
     </div>
@@ -103,5 +103,6 @@ export default {
 .picture-profile {
   width: 30%;
   height: 20%;
+  border-radius: 100%;
 }
 </style>
