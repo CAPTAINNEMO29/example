@@ -46,6 +46,19 @@
     <div class="B-money">
       <h2>The B-Money</h2>
       <p>The Concept of B-Money of Wei Dai.</p>
+      <br />
+      <p>
+        The main objective about the money in the crypto anarchist, is that the
+        realtions between people are protected, so violence can not be used if
+        they start to disagree because they are protected for their privacy.
+      </p>
+      <br />
+      <p>
+        The money also can be create by anyone just using the power computation
+        of your own CPU and you will be rewarded.
+      </p>
+      <br />
+      <a class="" href="http://www.weidai.com/bmoney.txt">Bit-Gold</a>
     </div>
     <hr />
 
