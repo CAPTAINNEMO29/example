@@ -113,14 +113,14 @@ export default {
 
 @media (max-width: 1020px) and (min-width: 240px) {
   .profile_info {
-    text-align: center;
+    text-align: bottom;
   }
 
   .picture-profile {
     position: static;
 
-    width: 60%;
-    height: 40%;
+    width: 400%;
+    height: 30%;
     border-radius: 100%;
   }
 }
