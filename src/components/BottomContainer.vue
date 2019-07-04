@@ -23,4 +23,9 @@ export default {
   height: 40%;
   display: inline-block;
 }
+
+.footer-link {
+  text-align: center;
+  font-size: 22px;
+}
 </style>
