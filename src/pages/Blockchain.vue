@@ -2,10 +2,11 @@
   <section class="Bitcoin">
     Blockchain
 
-    <img class="" src="" alt="Bitcoin" />
+    <img class="" src="images/bitcoin-225080_640.png" alt="Bitcoin" />
+    <br />
 
     <h1>Bitcoin</h1>
-    <p>
+    <p class="Header">
       "I've been working on a new electronic cash system that's fully
       peer-to-peer, with no trusted third party..."-Satoshi Nakamoto.
     </p>
@@ -102,6 +103,10 @@ export default {
 <style>
 .Bitcoin {
   background-color: #b7fbff;
+}
+
+.Header {
+  text-align: center;
 }
 
 p {
