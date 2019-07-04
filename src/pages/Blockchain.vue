@@ -62,7 +62,7 @@
         of your own CPU and you will be rewarded.
       </p>
       <br />
-      <a class="" href="http://www.weidai.com/bmoney.txt">Bit-Gold</a>
+      <a class="Link1" href="http://www.weidai.com/bmoney.txt">Bit-Gold</a>
     </div>
     <hr />
 
@@ -113,6 +113,6 @@ p {
 }
 
 .Link1 {
-  font-size: 1rem;
+  font-size: 22px;
 }
 </style>
