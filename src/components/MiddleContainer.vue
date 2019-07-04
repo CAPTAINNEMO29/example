@@ -111,7 +111,7 @@ export default {
   font-size: 22px;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1020px) and (min-width: 240px) {
   .profile_info {
     text-align: center;
   }
