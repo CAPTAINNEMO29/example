@@ -114,6 +114,7 @@ export default {
 @media (max-width: 1020px) and (min-width: 240px) {
   .profile_info {
     text-align: bottom;
+    flex: 0;
   }
 
   .picture-profile {
