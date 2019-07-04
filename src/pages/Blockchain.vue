@@ -1,7 +1,5 @@
 <template>
   <section class="Bitcoin">
-    Blockchain
-
     <img class="" src="images/bitcoin-225080_640.png" alt="Bitcoin" />
     <br />
 
@@ -42,7 +40,7 @@
         of the nodes are supouse to be honest for not be in danger.
       </p>
       <a
-        class=""
+        class="Link1"
         href="https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf"
         >Bizantine Generals Problem</a
       >
@@ -110,7 +108,11 @@ export default {
 }
 
 p {
-  text-align: center;
+  text-align: justify;
   padding: 10px 10px;
+}
+
+.Link1 {
+  font-size: 1rem;
 }
 </style>
