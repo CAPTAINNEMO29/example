@@ -119,7 +119,7 @@ export default {
   .picture-profile {
     position: static;
 
-    width: 400%;
+    width: 40%;
     height: 30%;
     border-radius: 100%;
   }
