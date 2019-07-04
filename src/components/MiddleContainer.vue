@@ -28,8 +28,8 @@
     <hr />
     <div class="contact-me">
       <h2>First Articles.</h2>
-      <router-link to="/ethereum">ethereum</router-link>
-      <router-link to="/blockchain">blockchain</router-link>
+      <router-link class="atribute" to="/ethereum">ethereum</router-link>
+      <router-link class="atribute" to="/blockchain">blockchain</router-link>
       <h3>Get in Touch</h3>
       <p>Let's learn together.</p>
       <a class="btn" href="neofrom29@gmail.com">CONTACT ME</a>
@@ -104,5 +104,10 @@ export default {
   width: 30%;
   height: 20%;
   border-radius: 100%;
+}
+
+.atribute {
+  text-align: center;
+  font-size: 22px;
 }
 </style>
