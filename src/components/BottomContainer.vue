@@ -27,5 +27,6 @@ export default {
 .footer-link {
   text-align: center;
   font-size: 22px;
+  padding: 10%;
 }
 </style>

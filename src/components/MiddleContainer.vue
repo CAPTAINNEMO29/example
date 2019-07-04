@@ -110,4 +110,18 @@ export default {
   text-align: center;
   font-size: 22px;
 }
+
+@media (max-width: 1020px) {
+  .profile_info {
+    text-align: center;
+  }
+
+  .picture-profile {
+    position: static;
+
+    width: 60%;
+    height: 40%;
+    border-radius: 100%;
+  }
+}
 </style>
