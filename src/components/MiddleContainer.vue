@@ -125,7 +125,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .profile {
     background-color: aqua;
     font-family: "Times New Roman", Times, serif;
