@@ -29,4 +29,11 @@ export default {
   font-size: 22px;
   padding: 10%;
 }
+
+@media (max-width: 1020px) {
+  .footer-link {
+    text-align: center;
+    padding: 5%;
+  }
+}
 </style>

@@ -111,7 +111,7 @@ export default {
   font-size: 22px;
 }
 
-@media (max-width: 1020px) and (min-width: 240px) {
+@media (max-width: 1020px) {
   .profile_info {
     text-align: bottom;
     flex: 0;
@@ -119,7 +119,29 @@ export default {
 
   .picture-profile {
     position: static;
+    width: 40%;
+    height: 30%;
+    border-radius: 100%;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  .profile {
+    background-color: aqua;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    padding: 50px 20px;
+    align-items: center;
+  }
+
+  .profile_info {
+    text-align: bottom;
+    position: absolute;
+    padding: 5%;
+  }
+
+  .picture-profile {
+    position: static;
     width: 40%;
     height: 30%;
     border-radius: 100%;
