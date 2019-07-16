@@ -47,7 +47,7 @@ export default {
 <style scoped>
 .middle-container {
   background-color: #b7fbff;
-  width: 80%;
+  width: 100%;
   height: 40%;
   display: inline-block;
 }
@@ -111,7 +111,7 @@ export default {
   font-size: 22px;
 }
 
-@media (max-width: 1020px) {
+/*@media (max-width: 640px) {
   .profile_info {
     text-align: bottom;
     flex: 0;
@@ -123,9 +123,9 @@ export default {
     height: 30%;
     border-radius: 100%;
   }
-}
+}*/
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .profile {
     background-color: aqua;
     font-family: "Times New Roman", Times, serif;

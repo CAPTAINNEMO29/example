@@ -19,7 +19,7 @@ export default {
 .bottom-container {
   /*background-color: #f6e79c;*/
   background-color: #c2bece;
-  width: 80%;
+  width: 100%;
   height: 40%;
   display: inline-block;
 }
@@ -30,7 +30,7 @@ export default {
   padding: 10%;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 640px) {
   .footer-link {
     text-align: center;
     padding: 5%;
