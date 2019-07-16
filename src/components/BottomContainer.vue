@@ -27,7 +27,7 @@ export default {
 .footer-link {
   text-align: center;
   font-size: 16px;
-  padding: 10%;
+  padding: 3px;
 }
 
 @media (max-width: 640px) {
