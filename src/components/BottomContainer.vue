@@ -33,7 +33,7 @@ export default {
 @media (max-width: 640px) {
   .footer-link {
     text-align: center;
-    padding: 5%;
+    padding: 5% 0% 0% 0%;
   }
 }
 </style>

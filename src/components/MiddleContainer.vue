@@ -111,7 +111,7 @@ export default {
   font-size: 22px;
 }
 
-/*@media (max-width: 640px) {
+@media (max-width: 640px) {
   .profile_info {
     text-align: bottom;
     flex: 0;
@@ -123,9 +123,9 @@ export default {
     height: 30%;
     border-radius: 100%;
   }
-}*/
+}
 
-@media (max-width: 640px) {
+/*@media (max-width: 640px) {
   .profile {
     background-color: aqua;
     font-family: "Times New Roman", Times, serif;
@@ -146,5 +146,5 @@ export default {
     height: 30%;
     border-radius: 100%;
   }
-}
+}*/
 </style>
