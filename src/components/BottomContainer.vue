@@ -26,14 +26,14 @@ export default {
 
 .footer-link {
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   padding: 10%;
 }
 
 @media (max-width: 640px) {
   .footer-link {
     text-align: center;
-    padding: 5% 0% 0% 0%;
+    padding: 10%;
   }
 }
 </style>
