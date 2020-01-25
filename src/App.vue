@@ -42,7 +42,7 @@ hr {
 }
 
 a {
-  color: #3cb0fd;
+  color: #aa4409;
   font-family: "Times New Roman", Times, serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -50,5 +50,6 @@ a {
 
 a:hover {
   color: #e95b19;
+  text-decoration: none;
 }
 </style>

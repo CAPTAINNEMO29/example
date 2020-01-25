@@ -1,22 +1,26 @@
 <template>
   <section class="bottom-container">
     <div class="container">
-      <div class="row ">
-        <div class="col text-center py-3">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 text-center py-3">
           <a class="footer-link " href="https://nakamotoinstitute.org/"
             >Satoshi Nakamoto Institute</a
           >
+        </div>
+        <div class="col-sm-12 col-md-4 text-center py-3">
           <a class="footer-link " href="https://bitcointalk.org/"
             >Bitcointalk</a
           >
+        </div>
+        <div class="col-sm-12 col-md-4 text-center py-3">
           <a class="footer-link " href="https://www.reddit.com/r/Bitcoin/"
             >Reddit</a
           >
         </div>
       </div>
-      <div class="row">
-        <p class="col text-center">© 2019 Growth Togheter</p>
-      </div>
+    </div>
+    <div class="row">
+      <p class="col text-center">© 2019 Growth Togheter</p>
     </div>
   </section>
 </template>

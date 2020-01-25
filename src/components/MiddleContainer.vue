@@ -2,7 +2,7 @@
   <section class="middle-container">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 col-md-8 col-lg-6 mx-auto  text-center">
+        <div class="col-sm-10 col-md-10 col-lg-10 mx-auto  text-center">
           <div id="example" class="carousel slide mt-4" data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#example" data-slide-to="0" class="active"></li>
@@ -44,12 +44,12 @@
         </div>
       </div>
       <div class="row py-3">
-        <div class="col-6 text-center">
+        <div class="col-sm-12 col-md-6 text-center">
           <h3 class="">Bitcoin</h3>
           <p class="text-muted"></p>
           <router-link class="atribute" to="/Bitcoin">Bitcoin</router-link>
         </div>
-        <div class="col-6 text-center">
+        <div class="col-sm-12 col-md-6 text-center">
           <h3 class="">Ethereum</h3>
           <p class="text-muted"></p>
           <router-link class="atribute" to="/Ethereum">Ethereum</router-link>
