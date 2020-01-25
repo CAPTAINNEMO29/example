@@ -43,13 +43,13 @@
           <router-link class="atribute" to="/Articulos">Noticias</router-link>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3 text-center ">
+      <div class="row py-3">
+        <div class="col-6 text-center">
           <h3 class="">Bitcoin</h3>
           <p class="text-muted"></p>
           <router-link class="atribute" to="/Bitcoin">Bitcoin</router-link>
         </div>
-        <div class="col-md-6 col-lg-3 text-center ">
+        <div class="col-6 text-center">
           <h3 class="">Ethereum</h3>
           <p class="text-muted"></p>
           <router-link class="atribute" to="/Ethereum">Ethereum</router-link>
