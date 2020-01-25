@@ -1,6 +1,6 @@
 <template>
   <section class="top-container">
-    <div class="container d-flex justifycontent-center d-block w-100">
+    <div class="container d-flex justify-content-center">
       <img
         @click="example"
         class="blockchain"

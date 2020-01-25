@@ -19,8 +19,8 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <p class="col text-center">© 2019 Growth Togheter</p>
+    <div class="">
+      <p class=" text-center">© 2019 Growth Togheter</p>
     </div>
   </section>
 </template>
