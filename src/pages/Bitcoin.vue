@@ -81,7 +81,11 @@
         cadena de bloques, es llamado Mempool.
       </p>
       <br />
-      <a class="Link1" href="https://medium.com/@stolman.b/1-1-hashing-and-sha-256-dd7d4b08d4bc">SHA 256</a>
+      <a
+        class="Link1"
+        href="https://medium.com/@stolman.b/1-1-hashing-and-sha-256-dd7d4b08d4bc"
+        >SHA 256</a
+      >
     </div>
     <hr />
 
@@ -98,16 +102,12 @@
         >White Papper</a
       >
     </div>
-    <hr />
-
-    <div class="">
-      
   </section>
 </template>
 
 <script>
 export default {
-  name: "Blockchain"
+  name: "Bitcoin"
 };
 </script>
 
