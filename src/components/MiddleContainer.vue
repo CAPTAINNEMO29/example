@@ -1,43 +1,60 @@
 <template>
   <section class="middle-container">
-    <div class="profile">
-      <img
-        class="picture-profile"
-        src="images/matrix-3109378_640.jpg"
-        alt="personal picture"
-      />
-      <div class="profile__info">
-        <h2>
-          Tecnologia basada en los principios de consenso, descentralizacion y
-          prueba de trabajo.
-        </h2>
-        <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-8 col-lg-6 mx-auto  text-center">
+          <div id="example" class="carousel slide mt-4" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#example" data-slide-to="0" class="active"></li>
+              <li data-target="#example" data-slide-to="1"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/andre-francois-mckenzie-JrjhtBJ-pGU-unsplash.jpg"
+                  alt="project"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/clifford-photography-hiFghSs4keM-unsplash.jpg"
+                  alt="project"
+                  class="d-block w-100"
+                />
+              </div>
+            </div>
+            <a href="#example" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#example" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <hr />
-    <div class="skills">
-      <h2></h2>
-      <div class="skill-row">
-        <img class="" src="" alt="" />
-        <h3>Noticias actuales</h3>
-        <router-link class="atribute" to="/Articulos">Noticias</router-link>
-        <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class=" text-dark ">
+            <strong>Noticias actuales</strong>
+          </h1>
+          <router-link class="atribute" to="/Articulos">Noticias</router-link>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="" src="" alt="" />
-        <h3>Desarollo de Blocckhain</h3>
-        <p>Documentos y principios basicos.</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 text-center ">
+          <h3 class="">Bitcoin</h3>
+          <p class="text-muted"></p>
+          <router-link class="atribute" to="/Bitcoin">Bitcoin</router-link>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center ">
+          <h3 class="">Ethereum</h3>
+          <p class="text-muted"></p>
+          <router-link class="atribute" to="/Ethereum">Ethereum</router-link>
+        </div>
       </div>
-    </div>
-    <hr />
-    <div class="contact-me">
-      <h2>Primeros Articulos.</h2>
-      <router-link class="atribute" to="/Bitcoin">Bitcoin</router-link>
-      <router-link class="atribute" to="/Ethereum">Ethereum</router-link>
-      <h3>seguir en contacto</h3>
-      <p>Aprender juntos.</p>
-      <a class="btn" href="neofrom29@gmail.com">CONTACT ME</a>
-      <hr />
     </div>
   </section>
 </template>
@@ -128,27 +145,4 @@ export default {
     border-radius: 100%;
   }
 }
-
-/*@media (max-width: 640px) {
-  .profile {
-    background-color: aqua;
-    font-family: "Times New Roman", Times, serif;
-    position: relative;
-    padding: 50px 20px;
-    align-items: center;
-  }
-
-  .profile_info {
-    text-align: bottom;
-    position: absolute;
-    padding: 5%;
-  }
-
-  .picture-profile {
-    position: static;
-    width: 40%;
-    height: 30%;
-    border-radius: 100%;
-  }
-}*/
 </style>

@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: "Ethereum"
+  name: "Noticias"
 };
 </script>
 
